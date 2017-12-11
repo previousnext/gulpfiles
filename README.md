@@ -3,11 +3,11 @@
 PreviousNext Gulpfiles allows you to rapidly setup a custom Gulp 4 workflow with
 minimal fuss using ES6, NPM modules and configuration stored in YML.
 
-### Requirements
+## Requirements
 
 NPM, Gulp 4.
 
-### Workflow modules
+## Workflow modules
 
 Modules are used to build a complete Gulp workflow. You can use as few or as
 many as you like. So far we have modules for:
@@ -41,13 +41,13 @@ Spin up Browsersync with live reloading.
 *kss*
 Build a KSS style guide.
 
-### Getting started
+## Getting started
 
 There are three components needed to setup a Gulpfiles workflow:
 
-# Load the desired workflow modules via `package.json`.
-# Configure each workflow module in your `gulpfiles.yml`.
-# Use ES6 `import` syntax to import those workflow modules into your custom `gulpfile.babel.js`.
+1. Load the desired workflow modules via `package.json`.
+2. Configure each workflow module in your `gulpfiles.yml`.
+3. Use ES6 `import` syntax to import those workflow modules into your custom `gulpfile.babel.js`.
   
 To illustrate a standard but simple workflow for a project lets set one up that
 does the following: 
@@ -57,7 +57,7 @@ does the following:
 * Svgo to optimise our SVG files.
 * Browsersync to run a development environment for device testing.
 
-#### 1. Load modules 
+### 1. Load modules 
 
 Add each workflow module as a dev dependency like so:
 
@@ -65,7 +65,7 @@ Add each workflow module as a dev dependency like so:
 npm install --save-dev gulpfiles-sass gulpfiles-es6 gulpfiles-svgo
 ```
 
-#### 2. Configure modules
+### 2. Configure modules
 
 Create a `gulpfiles.yml` file in your project root. Each module has its own
 syntax for configuration.
@@ -130,7 +130,7 @@ browsersync:
   open: true
 ```
 
-#### 3. Write your gulpfile
+### 3. Write your gulpfile
 
 So that you can tell gulp about our workflows, you'll need to create 
 `gulpfile.babel.js` in your project root.
