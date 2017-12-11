@@ -12,33 +12,41 @@ NPM, Gulp 4.
 Modules are used to build a complete Gulp workflow. You can use as few or as
 many as you like. So far we have modules for:
 
-*sass*
+#### [sass](packages/sass/README.md)
 Compile multiple source directories in a project to multiple destination 
 directories.
 
-*es6*
+#### [es6](packages/es6/README.md)
+
 Use Bable to transpile your ES6, Rollup to bundle your modules, and Uglify to
 minify your projects JS.
 
-*moderinzr*
+#### [moderinzr](packages/modernizr/README.md)
+
 Build a custom version of Modernizr suited to your project.
 
-*svgo*
+#### [svgo](packages/svgo/README.md)
+
 Optimise SVG files.
 
-*svgsprite*
+#### [svgsprite](packages/svgsprite/README.md)
+
 Build sprites from a folder of SVG files.
 
-*lint*
+#### [lint](packages/lint/README.md)
+
 Lint your JS and/or SASS.
 
-*autoprefixer*
+#### [autoprefixer](packages/autoprefixer/README.md)
+
 Apply browser prefixes to your CSS files.
 
-*browsersync*
+#### [browsersync](packages/browsersync/README.md)
+
 Spin up Browsersync with live reloading.
 
-*kss*
+#### [kss](packages/kss/README.md)
+
 Build a KSS style guide.
 
 ## Getting started
