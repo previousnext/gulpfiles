@@ -1,0 +1,24 @@
+{
+  "name": "@gulpfiles/eslint",
+  "version": "0.1.1-0",
+  "description": "Eslint gulp workflow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/previousnext/gulpfiles/tree/master/packages/gulpfiles-eslint"
+  },
+  "author": "jptaranto <jacktaranto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@gulpfiles/core": "^0.1.1-0",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "gulp-eslint": "^3"
+  },
+  "dependencies": {
+    "@gulpfiles/core": "^0.1.1-0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@gulpfiles/core",
+  "version": "0.1.1-0",
+  "description": "Gulpfiles core and config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/previousnext/gulpfiles/tree/master/packages/gulpfiles-core"
+  },
+  "author": "jptaranto <jacktaranto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "js-yaml": "^3.10.0",
+    "plugin-error": "^1.0.1"
+  }
+}
