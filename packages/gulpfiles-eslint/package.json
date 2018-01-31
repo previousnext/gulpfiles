@@ -1,6 +1,6 @@
 {
   "name": "@gulpfiles/eslint",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Eslint gulp workflow",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "author": "jptaranto <jacktaranto@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@gulpfiles/core": "^0.1.1",
+    "@gulpfiles/core": "^0.1.0",
     "babel-eslint": "^7.1.1",
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "^14.0.0",
@@ -19,6 +19,6 @@
     "gulp-eslint": "^3"
   },
   "dependencies": {
-    "@gulpfiles/core": "^0.1.1"
+    "@gulpfiles/core": "^0.1.0"
   }
 }
