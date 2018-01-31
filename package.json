@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/previousnext/gulpfiles#readme",
   "devDependencies": {
-    "@gulpfiles/core": "^0.1.0",
+    "pnx-gulpfiles-core": "^0.1.0",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
