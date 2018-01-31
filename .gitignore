@@ -3,3 +3,4 @@ DS_Store
 /packages/*/node_modules
 *.log
 *.cache
+/.idea
